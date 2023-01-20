@@ -34,9 +34,9 @@ export const Home = (): JSX.Element => {
                 Criando experiências por meio da tecnologia{" "}
               </Text>
               <Text type="body1" color="grey6">
-                Sou estudante de programação na Kenzie Academy Brasil,
-                participei de diversos projetos resolvendo problemas de alto
-                nível e desenvolvendo habilidades
+                Sou desenvolvedora full-stack formada pela Kenzie Academy
+                Brasil. Já participei de diversos projetos resolvendo problemas
+                de alto nível e desenvolvendo habilidades.
               </Text>
               <HeaderButtonsArea>
                 <Button as="a" href="#projetos">
@@ -81,7 +81,7 @@ export const Home = (): JSX.Element => {
               <Text as="p" type="body1" color="grey2">
                 No linkedIn sempre estou compartilhando meus processos diários
                 para desenvolver esses projetos e estou disposta a trocar
-                algumas ideias por lá
+                algumas ideias por lá!
               </Text>
               <Button
                 type="primary"

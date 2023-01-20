@@ -4,7 +4,7 @@ import imgJS from "../public/static/img/stack/js.svg";
 import imgNode from "../public/static/img/stack/node.svg";
 import imgStyled from "../public/static/img/stack/styled.svg";
 import imgReact from "../public/static/img/stack/react.svg";
-import { FaPython } from "react-icons/fa";
+import { FaPython, FaDocker } from "react-icons/fa";
 import { SiTypescript, SiPostgresql } from "react-icons/si";
 import { DiDjango } from "react-icons/di";
 
@@ -37,4 +37,5 @@ export const stackData = [
   { title: "Python", img: FaPython },
   { title: "Django", img: DiDjango },
   { title: "PostgreSQL", img: SiPostgresql },
+  { title: "Docker", img: FaDocker },
 ];
