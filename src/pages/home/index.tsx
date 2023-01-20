@@ -80,7 +80,7 @@ export const Home = (): JSX.Element => {
               </Text>
               <Text as="p" type="body1" color="grey2">
                 No linkedIn sempre estou compartilhando meus processos diários
-                para desenvolver esses projetos e estou disposto a trocar
+                para desenvolver esses projetos e estou disposta a trocar
                 algumas ideias por lá
               </Text>
               <Button
