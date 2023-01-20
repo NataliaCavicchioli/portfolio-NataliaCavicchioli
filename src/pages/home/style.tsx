@@ -51,7 +51,7 @@ export const LogoTipoImage = styled("img", {
   height: "15rem",
   borderRadius: "50%",
   animation: `${profileAnimation} 8s ease-in-out 1s infinite normal none running`,
-  boxShadow: "rgb(251 251 251) 0px 0px 6px 2px",
+  boxShadow: "rgb(251 251 251) 0rem 0rem .375rem .125rem",
 });
 
 export const ImageContent = styled("div", {
