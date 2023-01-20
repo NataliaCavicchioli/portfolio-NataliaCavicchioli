@@ -1,17 +1,13 @@
-// Styles
 import { Container } from "@/styles/Global";
 import { Text } from "@/styles/Text";
 import { Button } from "@/styles/Buttons";
 
-// Components
 import { Stack } from "@/components/Stack";
 import { Project } from "@/components/Project";
 
-// Data
 import { stackData } from "@/utils/stackData";
 import { userData } from "@/utils/userData";
 
-// Page Style
 import {
   Header,
   HeaderContent,
@@ -22,32 +18,45 @@ import {
   ProjectsAreaSocialMediaMessage,
   ProjectsAreaContent,
   ProjectAreaWrapperColumns,
+  BannerContent,
+  ImageContent,
 } from "./style";
-
+import { LogoTipoImage } from "./style";
 
 export const Home = (): JSX.Element => {
   return (
     <main>
       <Header>
         <Container>
-          <HeaderContent>
-            <Text as="h1" type="heading1" color="grey5">
-              Criando experiências por meio da tecnologia{" "}
-            </Text>
-            <Text type="body1" color="grey6">
-              Sou estudante de programação na Kenzie Academy Brasil, participei
-              de diversos projetos resolvendo problemas de alto nível e
-              desenvolvendo habilidades
-            </Text>
-            <HeaderButtonsArea>
-              <Button as="a" href="#projetos">
-                Projetos
-              </Button>
-              <Button as="a" href="#tecnologias" type="btLink" color="grey5">
-                Tecnologias
-              </Button>
-            </HeaderButtonsArea>
-          </HeaderContent>
+          <BannerContent>
+            <HeaderContent>
+              <Text as="h1" type="heading1" color="grey5">
+                Criando experiências por meio da tecnologia{" "}
+              </Text>
+              <Text type="body1" color="grey6">
+                Sou estudante de programação na Kenzie Academy Brasil,
+                participei de diversos projetos resolvendo problemas de alto
+                nível e desenvolvendo habilidades
+              </Text>
+              <HeaderButtonsArea>
+                <Button as="a" href="#projetos">
+                  Projetos
+                </Button>
+                <Button as="a" href="#tecnologias" type="btLink" color="grey5">
+                  Tecnologias
+                </Button>
+              </HeaderButtonsArea>
+            </HeaderContent>
+            <ImageContent>
+              <LogoTipoImage
+                src={`https://github.com/${userData.githubUser}.png`}
+                alt={userData.nameUser}
+                title={userData.nameUser}
+                width={"400px"}
+                height={"400px"}
+              />
+            </ImageContent>
+          </BannerContent>
         </Container>
       </Header>
       <StackSection id="tecnologias">

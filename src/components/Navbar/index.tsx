@@ -5,7 +5,6 @@ import { userData } from "@/utils/userData";
 import {
   Navbar as NavbarWrapper,
   LogoTipo,
-  LogoTipoImage,
   LogoTipoText,
   NavbarLinks,
   NavbarMobileArea,
@@ -37,13 +36,6 @@ export const NavBar = (): JSX.Element => {
       <Container>
         <NavbarMobileArea>
           <LogoTipo>
-            <LogoTipoImage
-              src={`https://github.com/${userData.githubUser}.png`}
-              alt={userData.nameUser}
-              title={userData.nameUser}
-              width={"48px"}
-              height={"48px"}
-            />
             <LogoTipoText>{userData.nameUser}</LogoTipoText>
           </LogoTipo>
           {isWide && (

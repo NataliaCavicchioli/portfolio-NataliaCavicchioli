@@ -59,15 +59,14 @@ export const globalStyles = globalCss({
   },
   a: { textDecoration: "none" },
 });
-
 export const GlobalStyle: React.FC<GlobalStyleProps> = ({ children }) => {
   const theme = createTheme({
     colors: {
-      brand1: "#5C63ED",
-      brand2: "#7D82F1",
+      brand1: "#a26377",
+      brand2: "#64404c",
       brand3: "#BEC1F8",
-      brand4: "#E7E8FC",
-      grey1: "#212529",
+      brand4: "#ffefe1a1",
+      grey1: "#010101",
       grey2: "#495057",
       grey3: "#CED3D7",
       grey4: "#F1F3F5",
